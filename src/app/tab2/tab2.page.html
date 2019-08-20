@@ -1,9 +1,10 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Tab Two
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
+<div class="wrapper">
+  <div class="top-bar">
+    <h1>Good Morning</h1>
+    <h1>Shishir</h1>
+  </div>
+  <div class="exercises-list">
+    <app-exercise-category *ngFor="let category of categories" [category]="category"></app-exercise-category>
+  </div>
+</div>
 <ion-content></ion-content>

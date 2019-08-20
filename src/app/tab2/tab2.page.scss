@@ -1,1 +1,17 @@
-
+.wrapper {
+  background: var(--secondaryWhite);
+  height: 100%;
+  .top-bar {
+    background: #F5CEB8;
+    height: 360px;
+    padding: 26px;
+  }
+  
+  .exercises-list {
+    margin-top: -53px;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    padding: 0 26px;
+  }
+}
