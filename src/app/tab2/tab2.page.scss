@@ -1,17 +1,51 @@
 .wrapper {
   background: var(--secondaryWhite);
-  height: 100%;
   .top-bar {
+    display: flex;
+    flex-flow: column;
     background: #F5CEB8;
     height: 360px;
     padding: 26px;
+    background-image: url('./../../assets/icons/cloud.svg');
+    background-repeat: no-repeat;
+    background-position: 70% 40%;
+    ion-button {
+      width: 52px;
+      height: 52px;
+      --padding-bottom: 0;
+      --padding-end: 0;
+      --padding-start: 0;
+      --padding-top: 0;
+      align-self: flex-end;
+      button.button-native {
+        padding: 0;
+      }
+    }
+    h1 {
+      margin: 0;
+      &.name {
+        padding-top: 4px;
+      }
+    }
+    .text {
+      font-family: Proxima Nova;
+      font-size: 28px;
+      color: #222B45;
+      margin: 0 0 50px 12px;
+    }
+    ion-icon {
+      font-size: 52px;
+      align-self: flex-end;
+    }
   }
   
-  .exercises-list {
-    margin-top: -53px;
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-between;
-    padding: 0 26px;
-  }
 }
+.exercises-list {
+  margin-top: -53px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  padding: 0 26px;
+}
+  
+  

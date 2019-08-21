@@ -1,10 +1,17 @@
-<div class="wrapper">
-  <div class="top-bar">
-    <h1>Good Morning</h1>
-    <h1>Shishir</h1>
+<ion-content>
+  <div class="wrapper">
+    <div class="top-bar">
+      <ion-button ion-button icon-only shape="round" size="small" fill="clear">
+        <ion-icon src="/assets/icons/button.svg" class="ion-activatable" slot="icon-only"></ion-icon>
+      </ion-button>
+      <div class="text">
+        <h1>Good Morning</h1>
+        <h1 class="name">Shishir</h1>
+      </div>
+      <app-search-bar></app-search-bar>
+    </div>
+    <div class="exercises-list">
+      <app-exercise-category *ngFor="let category of categories" [category]="category"></app-exercise-category>
+    </div>
   </div>
-  <div class="exercises-list">
-    <app-exercise-category *ngFor="let category of categories" [category]="category"></app-exercise-category>
-  </div>
-</div>
-<ion-content></ion-content>
+</ion-content>

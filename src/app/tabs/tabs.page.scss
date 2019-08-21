@@ -4,9 +4,9 @@ ion-tab-bar {
   color: var(--white);
   border: none;
   ion-icon {
-  font-size: 26px;
-  margin-bottom: 6px;
+  font-size: 42px;
   width: -webkit-fill-available;
+  fill: var(--secondaryDarkBlue);
 }
   ion-label {
     font-size: 14px;
@@ -18,5 +18,7 @@ ion-tab-bar {
    ion-label {
     color: var(--ion-color-primary);
   }
-    // background:green;
+   ion-icon {
+    fill: var(--ion-color-primary);
+  }
 } 

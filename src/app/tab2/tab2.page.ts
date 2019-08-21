@@ -22,23 +22,7 @@ export class Tab2Page {
     {
       name: 'Yoga',
       image: 'yoga.png'
-    },
-    {
-      name: 'Diet Recommendation',
-      image: ''
-    },
-    {
-      name: 'Kegel Exercises',
-      image: ''
-    },
-    {
-      name: 'Meditation',
-      image: ''
-    },
-    {
-      name: 'Yoga',
-      image: ''
-    },
+    }
   ];
   constructor() { }
 
