@@ -26,7 +26,7 @@
 @import "~@ionic/angular/css/flex-utils.css";
 
 ion-app {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -38,15 +38,11 @@ ion-app {
   --ion-color-primary-shade: #005a00;
   --ion-color-primary-tint: #1a751a;
   --white: #FFFFFF;
-  --secondaryWhite: #F8F8F8;
+  --primaryWhite: #F8F8F8;
+  --secondaryWhite: #F5CEB8;;
   --primaryDarkBlue: #38415C;
   --secondaryDarkBlue: #33395F;
-   --ion-color-charcoal: #454545;
-  --ion-color-charcoal-rgb: 69,69,69;
-  --ion-color-charcoal-contrast: #FFFFFF;
-  --ion-color-charcoal-contrast-rgb: 255,255,255;
-  --ion-color-charcoal-shade: #3D3D3D;
-  --ion-color-charcoal-tint: #4C4C4C;
+  --ternaryDarkBlue: #222B45;
 }
 
 @font-face {

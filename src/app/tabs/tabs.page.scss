@@ -1,12 +1,18 @@
 ion-tab-bar {
   height: 70px;
-  margin: 10px 20px;
+  margin: 0 20px 10px 20px;
   color: var(--white);
   border: none;
+  display: flex;
+  justify-content: space-between;
+  ion-tab-button {
+    max-width: 100px;
+  }
   ion-icon {
   font-size: 42px;
   width: -webkit-fill-available;
   fill: var(--secondaryDarkBlue);
+  margin-bottom: -4px;
 }
   ion-label {
     font-size: 14px;

@@ -1,11 +1,11 @@
 .wrapper {
-  background: var(--secondaryWhite);
+  background: var(--primaryWhite);
   .top-bar {
     display: flex;
     flex-flow: column;
-    background: #F5CEB8;
+    background: var(--secondaryWhite);
     height: 360px;
-    padding: 26px;
+    padding: 38px 26px;
     background-image: url('./../../assets/icons/cloud.svg');
     background-repeat: no-repeat;
     background-position: 70% 40%;
@@ -30,7 +30,7 @@
     .text {
       font-family: Proxima Nova;
       font-size: 28px;
-      color: #222B45;
+      color: var(--ternaryDarkBlue);
       margin: 0 0 50px 12px;
     }
     ion-icon {
